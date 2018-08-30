@@ -1,0 +1,56 @@
+<!-- 
+Class: .usd 
+Featured:
+	- .sidebar-fixed = expanded sidebar
+	- .sidebar-minimized = icons only
+	- .sidebar-hidden = sidebar is off screen
+-->
+<body class="usd header-fixed sidebar-fixed aside-menu-off-canvas aside-menu-hidden help-menu-hidden help-menu-off-canvas">
+<!--
+	USD: Frame > Header
+	Class: .usd-header
+	Contents:
+		- Sidebar Toggler
+		- Header Brand
+		- Header Search & Dropdowns
+	Featured:
+		- Designed for mobile perfection
+		- Mobile search
+-->
+<header class="usd-header navbar">
+	<!-- .sidebar-toggler & .mobile-sidebar-toggler (toggles the sidebar)-->
+	<button class="navbar-toggler mobile-sidebar-toggler d-lg-none" type="button">
+		<i class="fa fa-bars"></i>
+	</button>
+	<button class="navbar-toggler sidebar-toggler d-md-down-none" type="button">
+	<i class="fa fa-bars"></i>
+	</button>
+	<!-- /.sidebar-toggler -->
+	<!-- .navbar-brand -->
+	<a class="navbar-brand" href="index.html"></a>
+	<!-- /.navbar-brand -->
+	<!-- .navbar-nav (right side) -->
+	<ul class="nav navbar-nav ml-auto">
+		<li class="nav-item">
+			<button class="btn btn-primary btn-link px-0" data-toggle="modal" data-target="#loginModal">Login</button>
+		</li>
+		<li class="nav-item">
+			<button class="btn btn-primary" data-toggle="modal" data-target="#registerModal">Register</button>
+		</li>
+	</ul>
+	<!-- /.navbar-nav -->
+</header>
+<!-- /.usd-header -->
+<!-- 
+	Class: .usd-body
+	Contents:
+		- Frame > Sidebar Nav
+		- Frame > Breadcrumbs
+		- Frame > Content Area
+		- Frame > Footer
+		- User > Help & Feedback
+		- User > Notifications
+	Featured:
+		- Everything below the header
+-->
+<div class="usd-body">

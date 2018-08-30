@@ -1,0 +1,60 @@
+<!-- .modal - register -->
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="registerModalLabel">Register</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="text-center mb-3">
+					<h4>Sign Up</h4>
+					<p class="text-secondary px-5">Get amazing content, exceptional information, and incredible advice - all free, of course.</p>
+				</div>
+				<div class="social-auth mb-3">
+					<button class="btn btn-facebook btn-lg btn-block">Connect With Facebook</button>
+					<button class="btn btn-google-plus btn-lg btn-block">Connect With Google</button>
+				</div>
+				<div class="hr-text mb-3"><span>Or</span></div>
+				<form class="mb-3" id="needs-validation-register" novalidate>
+					<div class="form-group">
+						<label class="form-label">Full Name</label>
+						<input class="form-control" type="text" placeholder="Full Name" required>
+						<div class="invalid-feedback">
+							<small>You must provide your name</small>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="form-label">Email Address</label>
+						<input class="form-control" type="email" placeholder="Email Address" required>
+						<div class="invalid-feedback">
+							<small>You must provide a valid email address</small>
+						</div>
+					</div>
+					<div class="form-group" id="register-password">
+						<label class="form-label">Password</label>
+						<span id="CapsWarn" style="display: none"><span class="badge badge-warning">CAPS LOCK</span></span>
+						<p toggle="#register-password-field" class="show-hide-password float-right mb-0 clickable font-xs">
+							<i class="toggle-icon fa fa-fw fa-eye"></i> <span class="toggle-text">Show</span>
+						</p>
+						<input id="register-password-field" type="password" class="form-control password-field" name="password" placeholder="Password" value="" required>
+						<div class="invalid-feedback">
+							<small>You must provide your password</small>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-8">
+							<small>By signing up to create an account, I accept the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></small>
+						</div>
+						<div class="col-lg-4">
+							<button class="btn btn-primary btn-block mt-3 mt-lg-0">Create Account</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /.modal -->

@@ -1,0 +1,57 @@
+<!-- .modal - login -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="loginModalLabel">Login</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="social-auth mb-3">
+					<button class="btn btn-facebook btn-lg btn-block">Connect With Facebook</button>
+					<button class="btn btn-google-plus btn-lg btn-block">Connect With Google</button>
+				</div>
+				<div class="hr-text mb-4">
+					<span>Or</span>
+				</div>
+				<form class="mb-3" id="needs-validation-login" novalidate>
+					<div class="form-group">
+						<label class="form-label">Email Address</label>
+						<input type="email" placeholder="Email" name="log" id="user_login" class="form-control input" value="" size="20" required>
+						<div class="invalid-feedback">
+							<small>You must provide your email address</small>
+						</div>
+						<!-- /.input-group -->
+					</div>
+					<!-- /.form-group -->
+					<div class="form-group" id="login-password">
+						<label class="form-label">Password</label>
+						<span id="CapsWarn" style="display: none"><span class="badge badge-warning">CAPS LOCK</span></span>
+						<input id="login-password-field" type="password" class="form-control password-field" name="password" placeholder="Password" value="" required>
+						<div class="invalid-feedback">
+							<small>You must provide your password</small>
+						</div>
+					</div>
+					<div class="row align-items-center clear-both">
+						<div class="col-lg-6">
+							<div class="custom-controls-stacked d-block">
+								<label class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input">
+								<span class="custom-control-indicator"></span>
+								<span class="custom-control-description">Remember Me</span>
+								</label>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<p class="text-right"><a href="usd-user-login-register-lost-password.html">Lost Password?</a></p>
+						</div>
+					</div>
+					<button class="btn btn-primary mt-3">Login</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /.modal -->

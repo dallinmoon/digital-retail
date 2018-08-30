@@ -1,0 +1,240 @@
+.btn-outline-secondary{
+	border-color: $gray-500;
+
+	&:hover{
+		background-color: $transparent-dark-10;
+		color: $secondary;
+	}
+
+	&:active{
+		background-color: $transparent-dark-20;
+	}
+}
+
+.border-secondary{
+	border-color: $gray-500 !important;
+}
+
+.digital-retail-header{
+
+	hr.divider{
+		width: 5rem;
+		border-width: 3px;
+	}
+
+	&.dark{
+		color: $white;
+		background-color: $brand-primary;
+
+		a{
+			color: $white;
+		}
+
+		.breadcrumb-divider{
+			color: $transparent-light-50;
+		}
+
+		.btn{
+			border-color: $white;
+			color: $white;
+
+			&:hover{
+				background-color: $transparent-light-20 !important;
+			}
+
+			&:active{
+				background-color: $transparent-light-40 !important;
+				border-color: $white !important;
+				box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5) !important;
+			}
+		}
+
+		hr.divider{
+			width: 5rem;
+			border-width: 3px;
+			border-color: $transparent-light-50;
+		}
+	}
+
+	&.light{
+		color: $secondary;
+		background-color: $white;
+
+		.breadcrumb-divider{
+			color: $breadcrumb-divider-color;
+		}
+
+		.btn{
+			border-color: $secondary;
+			color: $secondary;
+
+			&:hover{
+				background-color: $transparent-dark-10 !important;
+			}
+
+			&:active{
+				color: $secondary !important;
+				background-color: $transparent-dark-20 !important;
+				border-color: $secondary !important;
+				box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.15) !important;
+			}
+		}
+
+		hr.divider{
+			width: 5rem;
+			border-width: 3px;
+			border-color: $breadcrumb-divider-color;
+		}
+	}
+}
+
+.payment{
+	
+	.card.active{
+		border: 1px solid $brand-primary;
+
+		&:before{
+			position: absolute;
+			display: block;
+			content: '';
+			background-color: $brand-primary;
+			right: 0;
+			top: 0;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			background-color: transparent;
+			border-width: 0 46px 46px 0;
+			border-color: transparent $brand-primary transparent transparent;
+		}
+
+		.card-active-icon{
+			top: 8px;
+			right: 5px;
+			position: absolute;
+			color: #fff;
+			display: block;
+		}
+	}
+}
+
+.usd-footer{
+	min-height: 60px;
+	img.footer-vehicle{
+		width: 100px;
+	}
+
+	.footer-price-col{
+		text-align: right;
+	}
+
+	.footer-price{
+		font-size: 1rem;
+	}
+
+	.footer-payment{
+		position: fixed;
+		bottom: 75px;
+		right: 25px;
+	}
+}
+
+.vehicle{
+	
+	.vehicle-img img{
+		width: 150px;
+		margin-right: 1rem;
+	}
+}
+
+.payment-summary{
+	width: 300px;
+	color: $secondary;
+
+	.item-subtitle{
+		font-size: 0.6rem !important;
+	}
+
+	.item.active{
+		background-color: $white;
+	}
+
+	.item:hover{
+		background-color: $white;
+	}
+
+	.item.item-bottom-border{
+		border-color: $gray-400;
+	}
+}
+
+.key-features .card-block{
+	font-size: 0.75rem;
+}
+
+@include media-breakpoint-up(xl) {
+
+	.payment-summary{
+		width: 363px;
+	}
+
+	.btn-sticky{
+		width: 363px;
+		margin-bottom: 10px;
+	}
+
+	.fixed{
+		position: fixed;
+		top: 70px;
+
+		.btn-sticky{
+			width: 363px;
+			margin-bottom: 10px;
+			right: 0px;
+		}
+	}
+
+}
+
+@include media-breakpoint-down(lg) {
+
+	.btn-sticky{
+		width: 303px;
+		margin-bottom: 10px;
+	}
+
+	.payment-summary{
+		width: 303px;
+	}
+
+	.fixed .btn-sticky{
+		width: 300px;
+		margin-bottom: 10px;
+		right: 0px;
+	}
+}
+
+@include media-breakpoint-down(md) {
+
+	.btn-sticky{
+		margin-bottom: 10px;
+		display: block;
+		width: 100%;
+	}
+
+	.payment-summary{
+		display: block;
+		width: 100%;
+	}
+
+	.usd-footer{
+		.footer-price-col{
+			text-align: center;
+		}
+
+		.footer-payment{
+			float: right;
+		}
+
+	}
+}

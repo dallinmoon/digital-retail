@@ -1,0 +1,648 @@
+{{> version}}
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  {{> static-meta}}
+  <meta name="description" content="Purchase a vehicle 100% online.">
+  <link rel="canonical" href="https://www.dealercorp.com/">
+  <meta property="og:title" content="Digital Retail - Purchase Vehicles Online">
+  <meta property="og:description" content="Purchase a vehicle 100% online.">
+  <meta property="og:url" content="https://www.dealercorp.com">
+  <meta name="twitter:description" content="Purchase a vehicle 100% online.">
+  <meta name="twitter:title" content="Digital Retail - Purchase Vehicles Online">
+  <title>Purchase Vehicles Online</title>
+</head>
+{{> header-flat}}
+{{> nav}}
+<section class="digital-retail-header dark">
+  <div class="container mb-3 py-3 d-lg-none breadcrumb-mobile">
+    <div class="row align-items-center">
+      <div class="col-3 text-left breadcrumb-previous">
+        <a href="accessories.html" class="btn btn-icon-round btn-outline-secondary"><i class="fal fa-angle-left"></i></a>
+      </div>
+      <div class="col-6 text-center breadcrumb-active">
+        <i class="fal fa-exchange"></i> Trade
+      </div>
+      <div class="col-3 text-right breadcrumb-next">
+        <a href="payment.html" class="btn btn-icon-round btn-outline-secondary"><i class="fal fa-angle-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="breadcrumb usd-breadcrumb mb-3 d-md-down-none">
+    <ol class="breadcrumb-list">
+      <a href="accessories.html" class="mr-3 float-left font-xl mt-2"><i class="fal fa-angle-left"></i></a>
+      <a href="vehicle.html" class="breadcrumb-item"><i class="fal fa-car breadcrumb-item-icon"></i>Vehicle</a>
+      <li class="breadcrumb-divider"><i class="fal fa-angle-right breadcrumb-item-icon"></i></li>
+      <a href="savings.html" class="breadcrumb-item"><i class="fal fa-hand-holding-usd breadcrumb-item-icon"></i> Savings</a>
+      <li class="breadcrumb-divider"><i class="fal fa-angle-right breadcrumb-item-icon"></i></li>
+      <a href="protection.html" class="breadcrumb-item"><i class="fal fa-shield-check breadcrumb-item-icon"></i> Protection</a>
+      <li class="breadcrumb-divider"><i class="fal fa-angle-right breadcrumb-item-icon"></i></li>
+      <a href="accessories.html"class="breadcrumb-item"><i class="fal fa-plus-hexagon breadcrumb-item-icon"></i> Accessories</a>
+      <li class="breadcrumb-divider"><i class="fal fa-angle-right breadcrumb-item-icon"></i></li>
+      <a href="trade.html" class="breadcrumb-item active"><i class="fal fa-exchange breadcrumb-item-icon"></i> Trade</a>
+      <li class="breadcrumb-divider"><i class="fal fa-angle-right breadcrumb-item-icon"></i></li>
+      <a href="payment.html" class="breadcrumb-item"><i class="fal fa-money-bill breadcrumb-item-icon"></i> Payment</a>
+      <li class="breadcrumb-divider"><i class="fal fa-angle-right breadcrumb-item-icon"></i></li>
+      <a href="about-you.html" class="breadcrumb-item"><i class="fal fa-user breadcrumb-item-icon"></i> About You</a>
+      <a href="payment.html" class="ml-3 float-right font-xl mt-2"><i class="fal fa-angle-right"></i></a>
+    </ol>
+  </div>
+</section>
+
+<div class="usd-content-area usd-content-area-standard animated fadeIn">
+  <section class="container">
+    <div class="row">
+      <div class="col-lg-8">
+
+        <!-- YMMM -->
+        <div id="trade-ymmm" class="card vehicle d-none">
+          <div class="card-header font-bold">
+            <div class="row align-items-center">
+              <div class="col-6 text-left">
+                <h4 class="mb-0 text-secondary">TRADE</h4>
+              </div>
+              <div class="col-6 text-right mt-1">
+
+              </div>
+            </div>
+          </div>
+          <div class="card-block">
+            <h5 class="mb-3">Tell us which car you own</h5>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <select class="custom-select w-100">
+                    <option>Year</option>
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                    <option>2014</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <select class="custom-select w-100">
+                    <option>Make</option>
+                    <option>Aston Martin</option>
+                    <option>Lamborghini</option>
+                    <option>Ferrari</option>
+                    <option>Maserati</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <select class="custom-select w-100">
+                    <option>Model</option>
+                    <option>DB9</option>
+                    <option>Rapide S</option>
+                    <option>Vanquish</option>
+                    <option>Vantage</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <input placeholder="Mileage" class="form-control" />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+              </div>
+              <div class="col-md-4">
+                <a id="ymmm-next" class="font-sans-serif btn btn-primary btn-icon btn-block btn-icon-right" href="#"><i class="fal fa-angle-right"></i> Next</a>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+        <!-- / YMMM -->
+
+        <!-- Category and Style 1 -->
+        <div id="trade-category" class="card vehicle d-none">
+          <div class="card-header font-bold">
+            <div class="row align-items-center">
+              <div class="col-6 text-left">
+                <h4 class="mb-0 text-secondary">TRADE</h4>
+              </div>
+              <div class="col-6 text-right mt-1">
+                
+              </div>
+            </div>
+          </div>
+          <div class="card-block">
+            <div class="border p-3 mb-3">
+              <div class="row">
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-md-3">
+                      <img class="img-fluid img-thumbnail" src="assets/img/trade.png" />
+                    </div>
+                    <div class="col-md-9">
+                      <h5 class="mb-1">2014 Aston Martin Vanquish</h5>
+                      <p class="text-secondary mb-0">Miles: 25,000</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h5 class="mb-3">Which category is your vehicle?</h5>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="form-group col-12">
+                    <div class="custom-controls-stacked d-block">
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Coupe</span>
+                      </label>
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Convertible 2</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+              </div>
+              <div class="col-md-4">
+                <a id="category-next" class="btn font-sans-serif btn-primary btn-icon btn-block btn-icon-right" href="#">Next <i class="fal fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / Category and Style 1 -->
+
+        <!-- Category and Style 2 -->
+        <div id="trade-style" class="card vehicle d-none">
+          <div class="card-header font-bold">
+            <div class="row align-items-center">
+              <div class="col-6 text-left">
+                <h4 class="mb-0 text-secondary">TRADE</h4>
+              </div>
+              <div class="col-6 text-right mt-1">
+                
+              </div>
+            </div>
+          </div>
+          <div class="card-block">
+            <div class="border p-3 mb-3">
+              <div class="row">
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-md-3">
+                      <img class="img-fluid img-thumbnail" src="assets/img/trade.png" />
+                    </div>
+                    <div class="col-md-9">
+                      <h5 class="mb-1">2014 Aston Martin Vanquish</h5>
+                      <p class="text-secondary mb-0">Miles: 25,000</p>
+                      <p class="text-secondary mb-0">Category: Coupe</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h5 class="mb-3">Which Style is your vehicle?</h5>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="form-group col-12">
+                    <div class="custom-controls-stacked d-block">
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Coupe 2d</span>
+                      </label>
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Coupe 2d Sport</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+              </div>
+              <div class="col-md-4">
+                <a id="style-next" class="font-sans-serif btn btn-primary btn-block btn-icon btn-icon-right" href="#">Next <i class="fal fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / Category and Style 2 -->
+
+        <!-- Options -->
+        <div id="trade-options" class="card vehicle d-none">
+          <div class="card-header font-bold">
+            <div class="row align-items-center">
+              <div class="col-6 text-left">
+                <h4 class="mb-0 text-secondary">TRADE</h4>
+              </div>
+              <div class="col-6 text-right mt-1">
+                
+              </div>
+            </div>
+          </div>
+          <div class="card-block">
+            <div class="border p-3 mb-3">
+              <div class="row">
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-md-3">
+                      <img class="img-fluid img-thumbnail" src="assets/img/trade.png" />
+                    </div>
+                    <div class="col-md-9">
+                      <h5 class="mb-1">2014 Aston Martin Vanquish</h5>
+                      <p class="text-secondary mb-0">Miles: 25,000</p>
+                      <p class="text-secondary mb-0">Category: Coupe (Coupe 2d)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h5 class="mb-3">Which options are on your vehicle?</h5>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="form-group col-12">
+                    <div class="custom-controls-stacked d-block">
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Price with standard equipment</span>
+                      </label>
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Select Your Options</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                      <div class="card card-body">
+                        <div class="row">
+                          <div class="form-group col-12">
+                            <label class="d-block">Interior</label>
+                            <div class="custom-controls-stacked d-block my-3">
+                              <label class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input">
+                              <span class="custom-control-indicator"></span>
+                              <span class="custom-control-description">Navigation System</span>
+                              </label>
+                              <label class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input">
+                              <span class="custom-control-indicator"></span>
+                              <span class="custom-control-description">Satellite Radio</span>
+                              </label>
+                              <label class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input">
+                              <span class="custom-control-indicator"></span>
+                              <span class="custom-control-description">Anti-theft</span>
+                              </label>
+                            </div>
+                            <label class="d-block">Exterior</label>
+                            <div class="custom-controls-stacked d-block my-3">
+                              <label class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input">
+                              <span class="custom-control-indicator"></span>
+                              <span class="custom-control-description">Premium Wheels</span>
+                              </label>
+                              <label class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input">
+                              <span class="custom-control-indicator"></span>
+                              <span class="custom-control-description">Parking Sensors</span>
+                              </label>
+                              <label class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input">
+                              <span class="custom-control-indicator"></span>
+                              <span class="custom-control-description">Anti-theft</span>
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+              </div>
+              <div class="col-md-4">
+                <a id="options-next" class="font-sans-serif btn btn-primary btn-icon btn-block btn-icon-right" href="#">Next <i class="fal fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / Options -->
+
+        <!-- Color -->
+        <div id="trade-color" class="card vehicle d-none">
+          <div class="card-header font-bold">
+            <div class="row align-items-center">
+              <div class="col-6 text-left">
+                <h4 class="mb-0 text-secondary">TRADE</h4>
+              </div>
+              <div class="col-6 text-right mt-1">
+                
+              </div>
+            </div>
+          </div>
+          <div class="card-block">
+            <div class="border p-3 mb-3">
+              <div class="row">
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-md-3">
+                      <img class="img-fluid img-thumbnail" src="assets/img/trade.png" />
+                    </div>
+                    <div class="col-md-9">
+                      <h5 class="mb-1">2014 Aston Martin Vanquish</h5>
+                      <p class="text-secondary mb-0">Miles: 25,000</p>
+                      <p class="text-secondary mb-0">Category: Coupe (Coupe 2d)</p>
+                      <p class="text-secondary mb-0">Options: Custom</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h5 class="mb-3">What color is your vehicle?</h5>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="form-group col-12">
+                    <div class="custom-controls-stacked d-block">
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Beige</span>
+                      </label>
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Red</span>
+                      </label>
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Black</span>
+                      </label>
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Silver</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+              </div>
+              <div class="col-md-4">
+                <a id="color-next" class="font-sans-serif btn btn-primary btn-block btn-icon btn-icon-right" href="#">Next <i class="fal fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / Color -->
+
+        <!-- Condition -->
+        <div id="trade-condition" class="card vehicle d-none">
+          <div class="card-header font-bold">
+            <div class="row align-items-center">
+              <div class="col-6 text-left">
+                <h4 class="mb-0 text-secondary">TRADE</h4>
+              </div>
+              <div class="col-6 text-right mt-1">
+                
+              </div>
+            </div>
+          </div>
+          <div class="card-block">
+            <div class="border p-3 mb-3">
+              <div class="row">
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-md-3">
+                      <img class="img-fluid img-thumbnail" src="assets/img/trade.png" />
+                    </div>
+                    <div class="col-md-9">
+                      <h5 class="mb-1">2014 Aston Martin Vanquish</h5>
+                      <p class="text-secondary mb-0">Miles: 25,000</p>
+                      <p class="text-secondary mb-0">Category: Coupe (Coupe 2d)</p>
+                      <p class="text-secondary mb-0">Options: Custom</p>
+                      <p class="text-secondary mb-0">Color: Silver</p> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h5 class="mb-3">What is your vehicle's condition?</h5>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="form-group col-12">
+                    <div class="custom-controls-stacked d-block">
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Fair <small class="text-muted">(18% of cars we value)</small></span>
+                      </label>
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Good <small class="text-muted">(54% of cars we value)</small></span>
+                      </label>
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Very Good <small class="text-muted">(23% of cars we value)</small></span>
+                      </label>
+                      <label class="custom-control custom-radio">
+                      <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input" required>
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Excellent <small class="text-muted">(3% of cars we value)</small></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+              </div>
+              <div class="col-md-4">
+                <a id="condition-next" class="font-sans-serif btn btn-primary btn-block btn-icon btn-icon-right" href="#">Next <i class="fal fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / Condition -->
+
+        <!-- Value -->
+        <div id="trade-value" class="card vehicle">
+          <div class="card-header">
+            <div class="row align-items-center">
+              <div class="col-6 text-left">
+                <h4 class="mb-0 text-secondary">TRADE</h4>
+              </div>
+              <div class="col-6 text-right mt-1">
+                
+              </div>
+            </div>
+          </div>
+          <div class="card-block">
+            <h5 class="mb-3">Your Vehicle Value</h5>
+            <div class="border p-3">
+              <div class="row">
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-md-3">
+                      <img class="img-fluid img-thumbnail" src="assets/img/trade.png" />
+                    </div>
+                    <div class="col-md-9">
+                      <h5 class="mb-1">2014 Aston Martin Vanquish</h5>
+                      <p class="text-secondary mb-0">Miles: 25,000</p>
+                      <p class="text-secondary mb-0">Category: Coupe (Coupe 2d)</p>
+                      <p class="text-secondary mb-0">Options: Custom</p>
+                      <p class="text-secondary mb-0">Color: Silver</p>
+                      <p class="text-secondary mb-0">Condition: Very Good</p>  
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row align-items-center">
+                    <div class="col-md-12">
+                      <h1 class="display-6 font-bold">$150,000</h1>
+                      <p class="lead mb-0">Trade-in Value</p>
+                      <p class="text-secondary mb-0"><small>Value is based on Kelley Blue Book's estimate of what a consumer can expect to receive from a dealer for a trade-in vehicle assuming an accurate appraisal of condition.</small></p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-12">
+                      <a href="#" class="btn btn-outline-primary">
+                        <i class="fal fa-camera"></i> Photos
+                      </a>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-md-8">
+              </div>
+              <div class="col-md-4 text-right">
+                <a id="add-another" class="font-sans-serif btn btn-primary btn-link" href="#"><i class="fal fa-plus"></i> Add Another Trade Vehicle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / Condition -->
+
+        <script>
+          $(document).ready(function(){
+            $('#ymmm-next').click(function(){
+              $('#trade-ymmm').toggleClass('d-none');
+              $('#trade-category').toggleClass('d-none');
+              resizeBroadcast();
+            });
+
+            
+
+            $('#category-next').click(function(){
+              $('#trade-category').toggleClass('d-none');
+              $('#trade-style').toggleClass('d-none');
+              resizeBroadcast();
+            });
+
+            
+
+            $('#style-next').click(function(){
+              $('#trade-style').toggleClass('d-none');
+              $('#trade-options').toggleClass('d-none');
+              resizeBroadcast();
+            });
+
+            
+
+            $('#options-next').click(function(){
+              $('#trade-color').toggleClass('d-none');
+              $('#trade-options').toggleClass('d-none');
+              resizeBroadcast();
+            });
+
+            
+
+            $('#color-next').click(function(){
+              $('#trade-color').toggleClass('d-none');
+              $('#trade-condition').toggleClass('d-none');
+              resizeBroadcast();
+            });
+
+            
+
+            $('#condition-next').click(function(){
+              $('#trade-value').toggleClass('d-none');
+              $('#trade-condition').toggleClass('d-none');
+              resizeBroadcast();
+            });
+
+            $('#add-another').click(function(){
+              $('#trade-ymmm').toggleClass('d-none');
+              $('#trade-value').toggleClass('d-none');
+              resizeBroadcast();
+            });
+
+            
+          });
+        </script>
+
+        <div class="row mb-3">
+          <div class="col-6 text-left">
+            <a href="accessories.html" class="btn btn-outline-primary btn-round"><i class="fal fa-angle-left"></i> Accessories</a>
+          </div>
+          <div class="col-6 text-right">
+            <a href="payment.html" class="btn btn-outline-primary btn-round">Payment <i class="fal fa-angle-right"></i> </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div id="sticky">
+          {{> sticky-side}}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- /.usd-content-area -->
+{{> notifications}}
+{{> help}}
+{{> footer}}
